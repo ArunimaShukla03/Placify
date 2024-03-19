@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLACIFY</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('./img/login-bg2.jpg') center/cover no-repeat;
+            /* Replace 'your-background-image.jpg' with the actual path to your image */
+        }
+
+        .container {
+            position: relative;
+            background-color: hsla(0, 0%, 10%, 0.1);
+            text-align: center;
+            padding: 2px 50px 2px 5px;
+            border: 2px solid rgba(255, 255, 255, 0.975);
+            border-radius: 15px;
+            backdrop-filter: blur(8px);
+            /* Optional: Add a semi-transparent white background to the container */
+            display: flex;
+            align-items: center;
+            /* Center content vertically */
+        }
+
+        #logo {
+            max-width: 400px;
+            /* Set the maximum width for the image */
+            margin-right: 5px;
+            /* Adjust margin as needed */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #recruiter-btn {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        #student-btn {
+            background-color: #2ecc71;
+            color: #fff;
+        }
+
+        #alumni-btn {
+            background-color: #e74c3c;
+            color: #fff;
+        }
+
+        h1,
+        h2 {
+            color: rgba(255, 255, 255, 0.975);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img id="logo" src="./img/bg-img4.png" alt="Logo">
+        <!-- Replace 'your-logo-image.jpg' with the actual path to your logo image -->
+        <div>
+            <h1>PLACIFY</h1><br>
+            <h2>How do you want to use Placify:</h2><br>
+            <button id="recruiter-btn">I'm Recruiter</button><br>
+            <button id="student-btn">I'm Student</button><br>
+            <button id="alumni-btn">I'm Alumni</button><br>
+        </div>
+    </div>
+</body>
+
+</html>
